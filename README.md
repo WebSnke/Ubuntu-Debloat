@@ -1,4 +1,5 @@
-<h1 align="center">Ubuntu-Debloat</h1>
-<br>
-<p align="center">A simple script written in Bash to remove<br>Applications which you might not need.</p>
-<h2>Setup</h2>
+<h2 align="center">Setup</h2>
+<p>Just run the following commands in the Terminal:
+```
+$ cd ../source
+$bash main.sh
