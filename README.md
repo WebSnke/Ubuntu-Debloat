@@ -1,6 +1,4 @@
-#Ubuntu-Debloat
-
-##Setup
+## Setup
 Just run the following commands in the Terminal:
 
 ```
