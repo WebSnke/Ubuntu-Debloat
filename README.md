@@ -3,3 +3,4 @@
 ```
 $ cd ../source
 $bash main.sh
+```
