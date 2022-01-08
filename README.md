@@ -2,6 +2,6 @@
 Just run the following commands in the Terminal:
 
 ```
-$ cd ../source
+$ cd ./source
 $bash Main.sh
 ```
