@@ -1,9 +1,5 @@
 #!/bin/bash
 
-RootCommand="sudo"
-PackageManager="apt"
-UninstallCommand="remove"
-
 RemoveAppList=(
     "gnome-calendar"
     "gnome-weather"
@@ -28,7 +24,7 @@ function RemoveAppFunction() {
         read -n 1 -s Input
         if [[ $Input == "y" ]]; then
             echo -e " Yes.\n"
-            $RootCommand $PackageManager $UninstallCommand $App
+            sudo apt remove $App
         else
             echo -e " No."
         fi
